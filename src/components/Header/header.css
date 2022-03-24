@@ -1,0 +1,22 @@
+.header_container_home{
+    background-color: #A461A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_header_home{
+    width: 140px;
+    height: 70px;
+    margin: 5px;
+}
+
+.header_buttons{
+    list-style: none;
+    display: flex;
+}
+
+.header_buttons_item{
+    margin: 0 10px;
+}

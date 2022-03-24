@@ -1,0 +1,15 @@
+.footer_container_home{
+    background-color: #A461A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_butons{
+    list-style: none;
+    display: flex;
+}
+
+.footer_buton_item{
+    margin: 0 10px
+}
