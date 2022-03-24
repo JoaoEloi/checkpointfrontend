@@ -3,13 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .footer_butons{
     list-style: none;
     display: flex;
+    
 }
 
 .footer_buton_item{
-    margin: 0 10px
+    margin: 0 10px;
+    
 }

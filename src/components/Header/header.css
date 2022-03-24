@@ -3,12 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    /* min-width: 400px; */
 }
 
 .logo_header_home{
-    width: 140px;
-    height: 70px;
+    max-width: 150px;
+    max-height: 75px;
+    min-width: 60px;
+    min-height: 35px;
     margin: 5px;
 }
 

@@ -1,5 +1,12 @@
+import './body.css'
+
 export default function Body () {
     return (
-        <h1>Hello Body</h1>
+        <>
+            <body className="body_container_home">
+                <h1 className="body_container_content">Teste</h1>
+                
+            </body>
+        </>
     )
 }

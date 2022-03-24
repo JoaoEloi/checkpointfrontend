@@ -6,3 +6,17 @@
 body{
     font-family: 'Noto Serif', serif;
 }
+
+
+
+@media (orientation: landscape) {
+    .body-container {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    .body-container {
+        flex-direction: column;
+    }
+}
