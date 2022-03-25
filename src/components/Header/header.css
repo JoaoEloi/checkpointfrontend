@@ -1,22 +1,18 @@
-.header_container_home{
+.header_container_home {
     background-color: #A461A1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    /* min-width: 400px; */
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .logo_header_home{
     max-width: 150px;
     max-height: 75px;
-    min-width: 60px;
+    min-width: 30px;
     min-height: 35px;
     margin: 5px;
-}
-
-.header_buttons{
-    list-style: none;
-    display: flex;
 }
 
 .header_buttons_item{

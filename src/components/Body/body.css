@@ -1,6 +1,10 @@
 .body_container_home{
     background-color: black;
     height: 100vh;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .body_container_content{
