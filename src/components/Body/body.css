@@ -1,5 +1,9 @@
 .body_container_home{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('../../assets/nebula-galaxy.gif');
+    /* background-repeat: repeat-; */
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex; 
     align-items: center;
