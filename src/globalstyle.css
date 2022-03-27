@@ -9,7 +9,7 @@ body{
 
 
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     .body-container {
         flex-direction: row;
     }
@@ -19,4 +19,4 @@ body{
     .body-container {
         flex-direction: column;
     }
-}
+} */

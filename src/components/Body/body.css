@@ -1,16 +1,23 @@
 .body_container_home{
-    /* background-color: black; */
-    background-image: url('../../assets/nebula-galaxy.gif');
-    /* background-repeat: repeat-; */
+    /* background-image: url('../../assets/nebula-galaxy.gif');
     background-position: center;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover; */
+    background-color: black;
     display: flex; 
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    
+}
+
+.body_container_content_h1{
+    color: white;
 }
 
 .body_container_content{
-    color: white;
+    color: whitesmoke;
+    font-size: 1.2rem;
 }
+
+
+

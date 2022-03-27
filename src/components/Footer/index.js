@@ -21,9 +21,15 @@ export default function Footer() {
                         <Button  color="dark" className="footer_buton_item">Github</Button>
                 </Link>
 
-                        <Button onClick={() => Swal.fire('Meu email pessoal:', 'ejoao605@gmail.com', 'info')} color="dark" className="footer_buton_item">Email Pessoal</Button>
+                        <Button onClick={() => Swal.fire('Meu email pessoal:',
+                        'ejoao605@gmail.com',
+                        'info')} color="dark" className="footer_buton_item">Email Pessoal</Button>
 
-                        <Button onClick={() => Swal.fire('Meu email profissional:', 'profissionaljoaoeloi@gmail.com', 'info')} color="dark" className="footer_buton_item">Email Profissional</Button>
+                        <Button onClick={() => Swal.fire('Meu email profissional:',
+                        'profissionaljoaoeloi@gmail.com',
+                        'info')} color="dark" className="footer_buton_item">Email Profissional</Button>
+
+
                 </footer>
 )
 }
