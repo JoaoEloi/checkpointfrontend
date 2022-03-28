@@ -1,0 +1,29 @@
+.banner_container_home{
+    background-image: url('../../assets/banner-portfolio.jpg');
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-position: left left;
+    background-size: cover;
+    
+}
+
+.perfil_image{
+    align-self: flex-start;
+    margin: 20px;
+    max-width: 200px;
+    max-height: 300px;
+    min-width: 30px;
+    min-height: 35px;
+}
+
+.banner_container_content_h1{
+    color: white;
+    margin: 50px 50px;
+}
+
+.banner_container_content{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin: 20px 20px;
+}

@@ -1,23 +1,8 @@
-.body_container_home{
-    /* background-image: url('../../assets/nebula-galaxy.gif');
-    background-position: center;
-    background-size: cover; */
-    background-color: black;
-    display: flex; 
-    align-items: center;
-    flex-direction: column;
+.container_card_home{
+    background-image: url('../../assets/foto_do_body.jpg');
+    background-image: center;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
+    background-color: black;
 }
-
-.body_container_content_h1{
-    color: white;
-}
-
-.body_container_content{
-    color: whitesmoke;
-    font-size: 1.2rem;
-}
-
-
-

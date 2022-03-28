@@ -1,6 +1,8 @@
 import Header from './components/Header'
-import Body from './components/Body'
 import Footer from './components/Footer'
+import Banner from './components/Banner'
+import Body from './components/Body'
+
 
 
 
@@ -12,9 +14,17 @@ function App() {
     <>
       <Header />
 
+      <Banner />
+
       <Body />
 
-      { <Footer /> }
+    {/* {
+      CardsInfo.map((item) => (
+      <Cards item={item}/>
+      ))
+    }  */}
+
+      <Footer /> 
 
     </>
   );

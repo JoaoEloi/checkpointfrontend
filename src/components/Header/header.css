@@ -3,18 +3,20 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    justify-content: flex-end;
     flex-wrap: wrap;
 }
 
 .logo_header_home{
+    align-self: flex-start;
     max-width: 150px;
     max-height: 75px;
     min-width: 30px;
     min-height: 35px;
-    margin: 5px;
+    margin: 5px; 
 }
 
 .header_buttons_item{
+    display: flex;
     margin: 0 10px;
+    justify-content: flex-end;
 }

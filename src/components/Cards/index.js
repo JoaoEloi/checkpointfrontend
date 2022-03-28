@@ -1,45 +1,25 @@
 import './cards.css'
 import { Button } from 'reactstrap';
 import Link from "@material-ui/core/Link";
-export function Cards() {
+import CardIMG from '../../assets/card_image.png'
+
+
+export default function Cards({ item }) {
 
     return (
-        <div className="body_container_cards">
+        <div className="container_cards">
 
-                <div className="banner_perfil">
-                    <h1>Perfil</h1>
-                    <p>descrição</p>
+                <div className="card_home_item">
+
+                    <img src={CardIMG} className="img_card" alt="Foto do Card" />
+
+                    <h1>{item.title}</h1>
+                    <p>{item.description}</p>
                     
-                    <Link href="https://github.com/JoaoEloi">
-                        <Button  color="dark" className="footer_buton_item">Github</Button>
+                    <Link href={item.link}>
+                        <Button  color="dark" className="footer_buton_item">{item.button}</Button>
                     </Link>
-                </div>
-
-                <div className="card_home_item">
-                    <h1>Titulo</h1>
-                    <p>descrição</p>
-
-                    <Link href="https://github.com/JoaoEloi">
-                        <Button  color="dark" className="footer_buton_item">Github</Button>
-                    </Link>
-                </div>
-
-                <div className="card_home_item">
-                    <h1>Titulo</h1>
-                    <p>descrição</p>
-
-                    <Link href="https://github.com/JoaoEloi">
-                        <Button  color="dark" className="footer_buton_item">Github</Button>
-                    </Link>
-                </div>
-
-                <div className="card_home_item">
-                    <h1>Titulo</h1>
-                    <p>descrição</p>
-
-                    <Link href="https://github.com/JoaoEloi">
-                        <Button  color="dark" className="footer_buton_item">Github</Button>
-                    </Link>
+                    
                 </div>
         </div>
     )
