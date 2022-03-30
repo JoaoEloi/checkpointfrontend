@@ -14,7 +14,7 @@ export default function Banner() {
                     <p className="banner_container_content"> 
                     Bem vindo a minha landing page, 
                     aqui vou contar um pouco de mim e da minha história como dev.
-                    Espero que você curta esse passeio e até a próxima viagem</p>
+                    Espero que você curta esse passeio e até a próxima viagem.</p>
 
                     <p className="banner_container_content">Minha jornada como dev teve início em 2019, quando eu entrei na faculdade, e desde lá venho trilhando este caminho.
                         Em 2021, após o ultimo semestre da faculdade,<br>
