@@ -2,6 +2,7 @@ import './cards.css'
 import { Button } from 'reactstrap';
 import Link from "@material-ui/core/Link";
 import CardIMG from '../../assets/card_image.png'
+import { GoRepo } from "react-icons/go";
 
 
 export default function Cards({ item }) {
@@ -17,7 +18,7 @@ export default function Cards({ item }) {
                     <p>{item.description}</p>
                     
                     <Link href={item.link}>
-                        <Button  color="dark" className="footer_buton_item">{item.button}</Button>
+                        <Button  color="dark" className="footer_buton_item">{item.button} <GoRepo size="20px" /> </Button>
                     </Link>
                     
                 </div>

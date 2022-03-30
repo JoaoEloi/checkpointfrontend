@@ -2,12 +2,18 @@
     background-color: #A461A1;
     display: flex;
     justify-content: space-between; 
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: center; 
+    flex-wrap: wrap; 
+}   
+
+.container_buttons{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
 }
 
 .logo_header_home{
-    align-self: flex-start;
+    padding: 0 10px;
     max-width: 150px;
     max-height: 75px;
     min-width: 30px;
@@ -16,7 +22,5 @@
 }
 
 .header_buttons_item{
-    display: flex;
-    margin: 0 10px;
-    justify-content: flex-end;
+    margin: 0 10px; 
 }

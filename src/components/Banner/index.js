@@ -4,7 +4,7 @@ import ImgPerfil from '../../assets/Foto_Perfil.jpg'
 
 export default function Banner() {
     return (
-        <section className="banner_container_home">
+        <section  id="banner" className="banner_container_home">
 
             <img src={ImgPerfil} className="perfil_image" alt="Foto de perfil" />
 
