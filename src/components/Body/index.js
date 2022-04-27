@@ -1,5 +1,4 @@
 import './body.css'
-
 import Cards from '../Cards'
 import { CardsInfo } from '../../data'
 
